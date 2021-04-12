@@ -4,7 +4,7 @@ var Upgrades = function() {
 	var upgradeList = [];
 	upgradeList.push({name: "Aetheric Attunement 1",
 		id: "aetheric1",
-		exceliaCost: 10,
+		exceliaCost: 1,
 		required: "",
 		shown: true,
 		purchased: false,
@@ -12,7 +12,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Time Warp 1",
 		id: "timewarp1",
-		exceliaCost: 10,
+		exceliaCost: 1,
 		required: "",
 		shown: true,
 		purchased: false,
@@ -20,7 +20,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Blessings 1",
 		id: "blessings1",
-		exceliaCost: 100,
+		exceliaCost: 1,
 		required: "",
 		shown: true,
 		purchased: false,
@@ -28,7 +28,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Faster Resting 1",
 		id: "fastresting1",
-		exceliaCost: 100,
+		exceliaCost: 1,
 		required: "",
 		shown: true,
 		purchased: false,
@@ -36,7 +36,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Auto-Shooting",
 		id: "autoshoot",
-		exceliaCost: 250,
+		exceliaCost: 1,
 		required: "",
 		shown: true,
 		purchased: false,
@@ -44,7 +44,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Battle Healing",
 		id: "battlehealing",
-		exceliaCost: 250,
+		exceliaCost: 1,
 		required: "",
 		shown: true,
 		purchased: false,
@@ -52,7 +52,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Aetheric Attunement 2",
 		id: "aetheric2",
-		exceliaCost: 350,
+		exceliaCost: 1,
 		required: "aetheric1",
 		shown: false,
 		purchased: false,
@@ -60,7 +60,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Faster Resting 2",
 		id: "fastresting2",
-		exceliaCost: 500,
+		exceliaCost: 1,
 		required: "fastresting1",
 		shown: false,
 		purchased: false,
@@ -68,7 +68,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Time Warp 2",
 		id: "timewarp2",
-		exceliaCost: 500,
+		exceliaCost: 1,
 		required: "timewarp1",
 		shown: false,
 		purchased: false,
@@ -76,7 +76,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Faster Exploration 1",
 		id: "fasterexploration1",
-		exceliaCost: 1000,
+		exceliaCost: 1,
 		required: "",
 		shown: true,
 		purchased: false,
@@ -84,7 +84,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Muscle Memory 1",
 		id: "musclememory1",
-		exceliaCost: 1000,
+		exceliaCost: 1,
 		required: "",
 		shown: true,
 		purchased: false,
@@ -92,7 +92,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Barrier Casting",
 		id: "barriercast",
-		exceliaCost: 2000,
+		exceliaCost: 1,
 		required: "",
 		shown: true,
 		purchased: false,
@@ -100,7 +100,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Blessings 2",
 		id: "blessings2",
-		exceliaCost: 2000,
+		exceliaCost: 1,
 		required: "blessings1",
 		shown: false,
 		purchased: false,
@@ -108,7 +108,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Double Excelia 1",
 		id: "doubleexcelia1",
-		exceliaCost: 2000,
+		exceliaCost: 1,
 		required: "",
 		shown: true,
 		purchased: false,
@@ -116,7 +116,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Faster Leveling 1",
 		id: "fasterleveling1",
-		exceliaCost: 2000,
+		exceliaCost: 1,
 		required: "",
 		shown: true,
 		purchased: false,
@@ -124,7 +124,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Time Warp 3",
 		id: "timewarp3",
-		exceliaCost: 2000,
+		exceliaCost: 1,
 		required: "timewarp2",
 		shown: false,
 		purchased: false,
@@ -132,7 +132,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Faster Resting 3",
 		id: "fastresting3",
-		exceliaCost: 2500,
+		exceliaCost: 1,
 		required: "fastresting2",
 		shown: false,
 		purchased: false,
@@ -140,7 +140,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Adept Mage",
 		id: "adeptmage",
-		exceliaCost: 5000,
+		exceliaCost: 1,
 		required: "",
 		shown: true,
 		purchased: false,
@@ -148,7 +148,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Blessings 3",
 		id: "blessings3",
-		exceliaCost: 5000,
+		exceliaCost: 1,
 		required: "blessings2",
 		shown: false,
 		purchased: false,
@@ -156,7 +156,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Faster Exploration 1",
 		id: "fasterexploration2",
-		exceliaCost: 5000,
+		exceliaCost: 1,
 		required: "fasterexploration1",
 		shown: false,
 		purchased: false,
@@ -164,7 +164,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Muscle Memory 2",
 		id: "musclememory2",
-		exceliaCost: 5000,
+		exceliaCost: 1,
 		required: "musclememory1",
 		shown: false,
 		purchased: false,
@@ -172,7 +172,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Double Excelia 2",
 		id: "doubleexcelia2",
-		exceliaCost: 10000,
+		exceliaCost: 1,
 		required: "doubleexcelia1",
 		shown: false,
 		purchased: false,
@@ -180,7 +180,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Faster Leveling 2",
 		id: "fasterleveling2",
-		exceliaCost: 15000,
+		exceliaCost: 1,
 		required: "fasterleveling1",
 		shown: false,
 		purchased: false,
@@ -188,7 +188,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Faster Exploration 1",
 		id: "fasterexploration3",
-		exceliaCost: 20000,
+		exceliaCost: 1,
 		required: "fasterexploration2",
 		shown: false,
 		purchased: false,
@@ -196,7 +196,7 @@ var Upgrades = function() {
 
 	upgradeList.push({name: "Faster Leveling 3",
 		id: "fasterleveling3",
-		exceliaCost: 50000,
+		exceliaCost: 1,
 		required: "fasterleveling2",
 		shown: false,
 		purchased: false,
